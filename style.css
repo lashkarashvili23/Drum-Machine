@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+html, body {
+  height:100%;
+  margin:0;
+  font-family: Russo One;
+}
+
+
+#drum-machine {
+  background-color: #d6d6d6;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#drum-pad {
+  background-color: #202020;
+  width: 300px;
+  height: 280px;
+  display: flex;
+}
+#display {
+  background-color: #333333;
+  width: 300px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: inset 22px 0px 18px -12px #202020;
+  
+}
+#screen {
+  background-color: #d6d6d6;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pad {
+  margin: 10px 0 0 10px;
+  width: 80px;
+  height: 80px;
+  background-color: #d6d6d6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.btn {
+  width: 40px;
+  height: 25px;
+  background-color: #a4161a;
+  margin-top: 8px;
+  
+}
+.btn-active {
+  background-color: #D71D24;
+  box-shadow: 0px 0px 8px 2px #D71D24;
+}
+
+label {
+  color: white;
+  margin-bottom: 8px;
+}
+h2 {
+  color: #333333;
+}
+.playing {
+  transform: scale(1.06);
+  background-color: #ffbe0b;
+}
+#vol-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input, button, submit { border:none; }
